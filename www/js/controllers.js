@@ -24,11 +24,15 @@ angular.module('starter.controllers', [])
   $scope.chat = Chats.get($stateParams.chatId);
 })
 
-
+    .controller('jocoCtrl', function ($scope) { })
 .controller('FaverCtrl', function ($scope) {})
 
 .controller('AccountCtrl', function($scope) {
   $scope.settings = {
     enableFriends: true
   };
-});
+
+})
+.controller('activeCallCtrl', function ($scope) {});
+
+
