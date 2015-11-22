@@ -33,6 +33,34 @@ angular.module('starter.controllers', [])
   };
 
 })
-.controller('activeCallCtrl', function ($scope) {});
+.controller('activeCallCtrl', function ($scope) {
+    $scope.callText = '';
+    var commands = {
+        '*val': function (val) {
+            $scope.callText += "\n" + val;
+
+            $scope.$apply();
+        }
+    };
+    annyang.addCommands(commands);
+    annyang.setLanguage('sr');
+    //annyang.setLanguage('bg');
+    annyang.debug();
+    // Start listening. You can call this here, or attach this call to an event, button, etc.
+
+    annyang.start();
+
+    $scope.stopCall = function () {
+        console.log("I don't listen");
+        annyang.abort();
+    }
+
+    // Text to Speech
+    $scope.TTS = {value: ''};
+    console.log($scope.TTS.value);
+    $scope.talk = function () {
+    responsiveVoice.speak($scope.TTS.value);
+    }
+});
 
 

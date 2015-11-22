@@ -1,5 +1,13 @@
 ﻿<ion-view>
     <ion-content>
-       bla bla bla
+        <button class="button button-negative" ui-sref="tab.chats" ng-click="stopCall()">
+            <i class="icon ion-ios-telephone"></i>
+        </button>
+        
+        <div>
+            <pre>{{callText}}</pre>
+        </div>
+        <input type="text" ng-controler="activeCallCtrl" ng-model="TTS.value" />
+        <button ng-click="talk()">Reply</button>
     </ion-content>
 </ion-view>
