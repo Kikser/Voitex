@@ -1,4 +1,10 @@
 /* Empty. Add your own CSS if you like */
+.tabs-hide .tabs {
+    display: none;
+}
+.tabs-show .tabs {
+    display: block;
+}
 .contact_name{
     position: absolute;
     top:30%;
@@ -61,7 +67,7 @@
     height:70px;
 }
 #text_call {
-    overflow-y: scroll;
+    overflow-y: auto;
     height: 150px;
     text-align:center;
 }

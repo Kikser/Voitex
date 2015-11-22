@@ -240,15 +240,39 @@
     ".git\\objects\\94\\693829e9712b4e519cbe290cedb6dafc26482e",
     ".git\\objects\\da\\95d75aa3ab0bdffc25fb9d90ff6286d6c84246",
     ".git\\objects\\ab\\d83482e87991feca4dbf7e47f7bae80a1c67f4",
-    ".git\\objects\\ca\\628102f3a6c156e7f7d5b950de48711eae8424"
+    ".git\\objects\\ca\\628102f3a6c156e7f7d5b950de48711eae8424",
+    ".git\\objects\\9d\\f8ea6bd4c3cfffafe80a1417de38f566b321be",
+    ".git\\objects\\fa\\478fcefbe016099c1d39a84be746928a80c144",
+    ".git\\objects\\fc\\5760ba92d5817aa7bfcecf6cb3046040a8d863",
+    ".git\\objects\\d3\\1e646df914de17dccd6c25abd8427b0f9c11c4",
+    ".git\\objects\\9f\\b1ecc7605b708cdda6d7187c8f48784c3e4890",
+    ".git\\objects\\d4\\cf540a67189c1e0e3b0f89718d802bf12ac33f",
+    ".git\\objects\\a5\\22d8359517395ff6c32992a455806ad1d90f2c",
+    ".git\\objects\\af\\6511191226f6aa5420f2a0dc04d46764749814",
+    ".git\\objects\\82\\47581f5c4663e22ed62f4bfacc1a9387983534",
+    ".git\\objects\\59\\393b9367119a5b4a2e41924d16c7359297d503",
+    ".git\\objects\\a3\\444c546f2a9cd26371625ebb723dea2917b9d0",
+    ".git\\objects\\3b\\bc882adc4d48e44a45ff21193fd2e36b9bec49",
+    ".git\\objects\\31\\c5abc31c099a0bbecd4f5955b96ac8320dac0b",
+    ".git\\objects\\ae\\ce1dbe8b1786aa93cdfda6155f6f812907e1ba",
+    ".git\\objects\\b2\\e0e8fec06fcd94d3323dcb6564ca6df3fe21ef",
+    ".git\\objects\\18\\e92cfbfa37f1751be3d42b0f7a8ec12011e864",
+    ".git\\objects\\8a\\7100c70fcf293da72b03af7f43337bd980f527"
   ],
-  "deletedFilesIos": [],
+  "deletedFilesIos": [
+    "www\\js\\controllers.js~RF4ded4b8.TMP",
+    "www\\js\\m11m3swd.hcp~"
+  ],
   "addedPluginsIos": [],
   "deletedPluginsIos": [],
   "changedFiles": [
-    "www\\templates\\chat-detail.html"
+    "www\\js\\controllers.js",
+    "www\\templates\\tabs.html"
   ],
-  "deletedFiles": [],
+  "deletedFiles": [
+    "www\\js\\controllers.js~RF4ded4b8.TMP",
+    "www\\js\\m11m3swd.hcp~"
+  ],
   "addedPlugins": [],
   "deletedPlugins": []
 }

@@ -22,11 +22,9 @@
    
 </ion-view>
 <script>
-    var scrolled = true;
-    function updateScroll() {
-        if (!scrolled) {
-            var element = document.getElementById('text_call');
-            element.scrollTop
-        }
-    }
+    $(function(){
+        $('#text_call').animate({
+            scrollTop: $('#text_call').get(0).scrollHeight
+        }, 7000);
+    });
 </script>
