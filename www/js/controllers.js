@@ -22,9 +22,10 @@ angular.module('starter.controllers', [])
 
 .controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
   $scope.chat = Chats.get($stateParams.chatId);
+
 })
 
-    .controller('jocoCtrl', function ($scope) { })
+    //.controller('jocoCtrl', function ($scope) { })
 .controller('FaverCtrl', function ($scope) {})
 
 .controller('AccountCtrl', function($scope) {

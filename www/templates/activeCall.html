@@ -1,13 +1,32 @@
 ﻿<ion-view>
     <ion-content>
-        <button class="button button-negative" ui-sref="tab.chats" ng-click="stopCall()">
-            <i class="icon ion-ios-telephone"></i>
-        </button>
-        
-        <div>
+       <div id="text_call">
             <pre>{{callText}}</pre>
         </div>
-        <input type="text" ng-controler="activeCallCtrl" ng-model="TTS.value" />
-        <button ng-click="talk()">Reply</button>
+        
+        <div class="btn_wrapper">
+            <div class="text_wrapper">
+                <input id="replay_text" type="text" placeholder="Reply" ng-controler="activeCallCtrl" ng-model="TTS.value" />
+            </div>
+            <button type="button" id="replay" ng-click="talk()" class="btn button button-ripple button-round button-outline button-stable">
+               <i class="ion-plus-round"></i>
+            </button> 
+            
+            <!--<button ng-click="talk()">Reply</button>-->
+
+            <button id="end_call" class="btn button button-ripple button-round button-assertive" ui-sref="tab.chats" ng-click="stopCall()">
+                <i class="icon ion-ios-telephone"></i>
+            </button>
+        </div>
     </ion-content>
+   
 </ion-view>
+<script>
+    var scrolled = true;
+    function updateScroll() {
+        if (!scrolled) {
+            var element = document.getElementById('text_call');
+            element.scrollTop
+        }
+    }
+</script>

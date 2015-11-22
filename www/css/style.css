@@ -1,5 +1,136 @@
 /* Empty. Add your own CSS if you like */
 .mobile {
-    margin-top:10%;
-    padding:10%;
+    margin-top: 30%;
+    margin-left:30%;
+    font-size:24px;
+    color:dodgerblue;
+    
+}
+#search {
+     border-radius: 5px;
+    border: 1px solid white;
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(50, 50, 50, 0.34);
+    -moz-box-shadow:    0px 1px 4px 0px rgba(50, 50, 50, 0.34);
+    box-shadow:         0px 1px 4px 0px rgba(50, 50, 50, 0.34);    
+    padding: 10px;
+    margin-top: 10px;
+    width: 300px;
+}
+#replay_text {
+  width:100%;
+    border: 0;
+  height: 40px;
+  text-align:center;
+  background-image: linear-gradient(#D2D2D2, #D2D2D2);
+  background-size: 100% 2px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+#replay_text:focus {
+ background-image: linear-gradient(#009587, #009587), linear-gradient(#D2D2D2, #D2D2D2);
+  animation: input 0.5s forwards;
+  box-shadow: none;
+  outline: 0;
+  background-size: 0% 2px;
+    }
+.btn_wrapper {
+       margin-top: 60%;
+    /* margin-left: 30%; */
+    /*padding: 10%;*/
+    width: 100%;
+    height: 300px;
+}
+.text_wrapper {
+    width:100%;
+    border:1px green;
+    border-radius:5%;
+    height:70px;
+}
+#text_call {
+    overflow-y: scroll;
+    height: 150px;
+    text-align:center;
+}
+.tab-nav tabs {
+    background-color: #4fa630!important;
+    height: 15%;
+    padding-top: 10%;
+}
+
+#end_call {
+    margin-left: 30%;
+}
+
+#replay {
+    margin-left: 14%;
+}
+.talk {
+    margin-left:40%!important;
+    margin-top:20%!important;
+}
+.btn {
+    /*background: #ED1C24!important;*/
+    outline: none!important;
+    /*color: white!important;*/
+    border: none!important;
+    border-radius: 0.25em!important;
+    padding: 0.75em 2em!important;
+    line-height: 1!important;
+    box-shadow: 0 0 0.25em rgba(0,0,0,0.5)!important;
+    text-shadow: 0 0 0.25em rgba(0,0,0,0.5)!important;
+    font-size: 1.5rem!important;
+}
+
+.button-white {
+    background: white;
+    color: orange;
+}
+
+.button-round {
+    border-radius: 100%!important;
+    padding: 0.75em!important;
+    width: 3em!important;
+    height: 3em!important;
+}
+
+.button-ripple {
+    position: relative;
+    overflow: hidden;
+    transform: translate(0);
+}
+
+.button-ripple_content {
+    position: relative;
+    z-index: 1;
+}
+
+.button-ripple_ripples {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.button-ripple_ripple {
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    width: 1em;
+    height: 1em;
+    margin: -0.5em 0 0 -0.5em;
+    transform: scale(0);
+    top: 0;
+    left: 0;
+    animation: ripple-animation 2s;
+}
+
+@keyframes ripple-animation {
+    from {
+        transform: scale3d(1,1,1);
+        opacity: 0.8;
+    }
+
+    to {
+        transform: scale3d(100,100,1);
+        opacity: 0;
+    }
 }
