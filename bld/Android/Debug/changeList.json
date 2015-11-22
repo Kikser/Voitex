@@ -231,13 +231,22 @@
     ".git\\objects\\7f\\8542e1b003022e81f8713b626034d87bdb3b03",
     ".git\\objects\\5c\\40a380783c18f8da43107c6bf28eb1f74840fd",
     ".git\\objects\\20\\1ff8ddbb7ac141d82274314bab161c83804123",
-    ".git\\objects\\72\\61feedc2a4aff63e008fa42c4217c53d630d0b"
+    ".git\\objects\\72\\61feedc2a4aff63e008fa42c4217c53d630d0b",
+    ".git\\objects\\ca\\d5d0d4cd6bd502ac299f293ed21f59e986abb4",
+    ".git\\objects\\84\\40ae9b901f2547acc4c4cb3100bfd9791ceebc",
+    ".git\\objects\\27\\bfafcccadbb857d1497579c287f379554fd907",
+    ".git\\objects\\2a\\a2e63e8c64b04dad8db1269aa3611687525190",
+    ".git\\objects\\61\\bc1742e86c8696ac11189b0349895d482fc617",
+    ".git\\objects\\94\\693829e9712b4e519cbe290cedb6dafc26482e",
+    ".git\\objects\\da\\95d75aa3ab0bdffc25fb9d90ff6286d6c84246",
+    ".git\\objects\\ab\\d83482e87991feca4dbf7e47f7bae80a1c67f4",
+    ".git\\objects\\ca\\628102f3a6c156e7f7d5b950de48711eae8424"
   ],
   "deletedFilesIos": [],
   "addedPluginsIos": [],
   "deletedPluginsIos": [],
   "changedFiles": [
-    "www\\templates\\tabs.html"
+    "www\\templates\\chat-detail.html"
   ],
   "deletedFiles": [],
   "addedPlugins": [],

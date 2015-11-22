@@ -1,10 +1,24 @@
 /* Empty. Add your own CSS if you like */
+.contact_name{
+    position: absolute;
+    top:30%;
+    left:3%;
+    font-size:32px;
+    color:white;
+    font-weight:300;
+}
 .mobile {
-    margin-top: 30%;
-    margin-left:30%;
+    margin-top: 10%;
+    margin-left:3%;
     font-size:24px;
-    color:dodgerblue;
+    color:#47f81d;
     
+}
+.num {
+    font-size: 24px;
+    color: dimgrey;
+    margin-left: 20%;
+    margin-top: -8%;
 }
 #search {
      border-radius: 5px;
