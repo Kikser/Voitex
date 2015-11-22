@@ -59,7 +59,7 @@ angular.module('starter.controllers', [])
     $scope.TTS = {value: ''};
     console.log($scope.TTS.value);
     $scope.talk = function () {
-    responsiveVoice.speak($scope.TTS.value);
+        responsiveVoice.speak($scope.TTS.value, "UK English Female", { rate: 0.7 });
     }
 });
 
