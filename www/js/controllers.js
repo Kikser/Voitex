@@ -43,13 +43,16 @@ angular.module('starter.controllers', [])
     };
   
 })
-.controller('activeCallCtrl', function ($scope, $rootScope) {
+.controller('activeCallCtrl', function ($scope,  $rootScope) {
+ 
     $rootScope.tabsHidden = true;
     $scope.callText = '';
     var commands = {
         '*val': function (val) {
             $scope.callText += "\n" + val;
-
+            $('#text_call').animate({
+                scrollTop: $('#text_call').get(0).scrollHeight
+            }, 7000);
             $scope.$apply();
         }
     };
@@ -63,6 +66,7 @@ angular.module('starter.controllers', [])
 
     $scope.stopCall = function () {
         console.log("I don't listen");
+        $scope.callText = '';
         annyang.abort();
     }
 
@@ -70,7 +74,7 @@ angular.module('starter.controllers', [])
     $scope.TTS = { value: '' };
     console.log($scope.TTS.value);
     $scope.talk = function () {
-        responsiveVoice.speak($scope.TTS.value, "UK English Female", { rate: 0.7 });
+        responsiveVoice.speak($scope.TTS.value, "UK English Female", { rate: 0.7 }, { volume: 3 });
     }
 });
 

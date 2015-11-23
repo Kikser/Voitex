@@ -68,15 +68,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
               }
           }
       })
-      //.state('tab.joco', {
-      //    url: '/joco',
-      //    views: {
-      //        'tab-faver': {
-      //            templateUrl: 'templates/tab-faver.html',
-      //            controller: 'FaverCtrl'
-      //        }
-      //    }
-      //})
 
     .state('tab.chat-detail', {
       url: '/chats/:chatId',
@@ -108,6 +99,6 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
      });
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/tab/dash');
+  $urlRouterProvider.otherwise('/tab/chats');
 
 });

@@ -1,5 +1,8 @@
 ﻿<ion-view>
     <ion-content>
+        <!--<div class="face_call">
+            <img ng-src="{{chat.face}}" style="width: 100%; ">
+        </div>-->
        <div id="text_call">
             <pre>{{callText}}</pre>
         </div>
@@ -21,10 +24,3 @@
     </ion-content>
    
 </ion-view>
-<script>
-    $(function(){
-        $('#text_call').animate({
-            scrollTop: $('#text_call').get(0).scrollHeight
-        }, 7000);
-    });
-</script>
